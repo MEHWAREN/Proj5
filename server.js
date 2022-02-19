@@ -45,7 +45,7 @@ app.post('/api/fileanalyse', upload.single('upfile'), (req, res, next)=>{
 })
 
 app.get('/api/files', (req,res,next)=>{
-  res.sendFile(__dirname+'/storedFiles/1645311282881document sans titre 15.18.44.docx');
+  res.sendFile(__dirname+'/storedFiles/1645311032224IMG_725.png');
 })
 
 
